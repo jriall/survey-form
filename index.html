@@ -12,18 +12,23 @@
 <body>
     <h1 id="title">Survey Form</h1>
     <div class="survey">
-        <p id="descriptions">Some description of the survey here...</p>
+        <p id="descriptions">A simple feedback form</p>
         <form action="https://crossorigin.me/https://freecodecamp.com" method="get">
             <fieldset>
                 <legend>Personal Details</legend>
                 <div>
                     <label>Name
-                        <input id="name" name="given-name" type="text" placeholder="John Smith" required>
+                        <input id="name" name="given-name" type="text" placeholder="Enter name..." required>
                     </label>
                 </div>
                 <div>
                     <label>Email
-                        <input id="email" name="email" type="email" placeholder="john.smith@gmail.com" required>
+                        <input id="email" name="email" type="email" placeholder="Enter email address..." required>
+                    </label>
+                </div>
+                <div>
+                    <label>Telephone Number
+                        <input id="usertel" name="usertel" type="tel" placeholder="Enter telephone number..." required>
                     </label>
                 </div>
                 <div>
@@ -342,7 +347,7 @@
                 </div>
                 <div>
                     <label>Further comments or suggestions</label>
-                    <textarea name="comments" placeholder="Enter text here..." id="comments"></textarea>
+                    <textarea name="comments" placeholder="Enter text here..." id="comments" rows="5" columns="50"></textarea>
                 </div>
                 <input type="submit" value="Submit">
             </fieldset>
