@@ -11,32 +11,32 @@
 
 <body>
     <h1 id="title">Survey Form</h1>
+    <p id="descriptions">A simple feedback form</p>
     <div class="survey">
-        <p id="descriptions">A simple feedback form</p>
         <form action="https://crossorigin.me/https://freecodecamp.com" method="get">
             <fieldset>
                 <legend>Personal Details</legend>
-                <div>
+                <div class="individual-entry">
                     <label>Name
                         <input id="name" name="given-name" type="text" placeholder="Enter name..." required>
                     </label>
                 </div>
-                <div>
+                <div class="individual-entry">
                     <label>Email
                         <input id="email" name="email" type="email" placeholder="Enter email address..." required>
                     </label>
                 </div>
-                <div>
+                <div class="individual-entry">
                     <label>Telephone Number
                         <input id="usertel" name="usertel" type="tel" placeholder="Enter telephone number..." required>
                     </label>
                 </div>
-                <div>
+                <div class="individual-entry">
                     <label>Date of Birth
                         <input id="dob" name="dob" type="date" required>
                     </label>
                 </div>
-                <div>
+                <div class="individual-entry">
                     <label>Country</label>
                     <select name="country" id="country" required>
                         <option value="">Country...</option>
@@ -289,7 +289,7 @@
                         <option value="Zimbabwe">Zimbabwe</option>
                     </select>
                 </div>
-                <div>
+                <div class="individual-entry">
                     <label>Current Occupation</label>
                     <select name="occupation" id="occupation" required>
                         <option value="">Select an option</option>
@@ -303,7 +303,7 @@
             </fieldset>
             <fieldset>
                 <legend>Survey Questions</legend>
-                <div>
+                <div class="individual-entry">
                     <label>What are the key ways I could improve my current projects?
                         <br>(Check all that apply)</label>
                     <input type="checkbox" name="project-improvement" value="design">Improved design principles
@@ -317,10 +317,10 @@
                     <input type="checkbox" name="project-improvement" value="responsive design">Responsive design without Bootstrap
                     <br>
                 </div>
-                <div>
+                <div class="individual-entry">
                     <label>Which general area of knowledge should I concentrate on improving the most?</label>
                 </div>
-                <div>
+                <div class="individual-entry">
                     <select name="tech-improvement" id="tech-improvement">
                         <option value="HTML">HTML</option>
                         <option value="CSS">CSS</option>
@@ -330,7 +330,7 @@
                         <option value="Other">Other</option>
                     </select>
                 </div>
-                <div>
+                <div class="individual-entry">
                     <label>Which technology should I learn next?</label>
                     <input type="radio" name="next-tech" value="Angular">Angular
                     <br>
@@ -345,7 +345,7 @@
                     <input type="radio" name="next-tech" value="other">Other
                     <br>
                 </div>
-                <div>
+                <div class="individual-entry">
                     <label>Further comments or suggestions</label>
                     <textarea name="comments" placeholder="Enter text here..." id="comments" rows="5" columns="50"></textarea>
                 </div>
