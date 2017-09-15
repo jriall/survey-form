@@ -305,20 +305,21 @@
                 <legend>Survey Questions</legend>
                 <div class="individual-entry">
                     <label>What are the key ways I could improve my current projects?
-                        <br>(Check all that apply)</label>
-                    <input type="checkbox" name="project-improvement" value="design">Improved design principles
+                        <br>(Check all that apply)</label><br>
+                    <input type="checkbox" name="project-improvement" value="design" class="multi-choice"> Improved design principles
                     <br>
-                    <input type="checkbox" name="project-improvement" value="pure javascript">More use of vanilla Javascript
+                    <input type="checkbox" name="project-improvement" value="pure javascript"> More use of vanilla Javascript
                     <br>
-                    <input type="checkbox" name="project-improvement" value="Sass">Refactoring with Sass
+                    <input type="checkbox" name="project-improvement" value="Sass"> Refactoring with Sass
                     <br>
-                    <input type="checkbox" name="project-improvement" value="react">Refactoring with React
+                    <input type="checkbox" name="project-improvement" value="react"> Refactoring with React
                     <br>
-                    <input type="checkbox" name="project-improvement" value="responsive design">Responsive design without Bootstrap
+                    <input type="checkbox" name="project-improvement" value="responsive design"> Responsive design without Bootstrap
                     <br>
                 </div>
+                <hr>
                 <div class="individual-entry">
-                    <label>Which general area of knowledge should I concentrate on improving the most?</label>
+                    <label> Which general area of knowledge should I concentrate on improving the most?</label>
                 </div>
                 <div class="individual-entry">
                     <select name="tech-improvement" id="tech-improvement">
@@ -330,23 +331,25 @@
                         <option value="Other">Other</option>
                     </select>
                 </div>
+                <hr>
                 <div class="individual-entry">
-                    <label>Which technology should I learn next?</label>
-                    <input type="radio" name="next-tech" value="Angular">Angular
+                    <label>Which technology should I learn next?</label><br>
+                    <input type="radio" name="next-tech" value="Angular" class="multi-choice">  Angular
                     <br>
-                    <input type="radio" name="next-tech" value="Node.js">Node.js
+                    <input type="radio" name="next-tech" value="Node.js">  Node.js
                     <br>
-                    <input type="radio" name="next-tech" value="tdd/bdd">TDD/BDD
+                    <input type="radio" name="next-tech" value="tdd/bdd">  TDD/BDD
                     <br>
-                    <input type="radio" name="next-tech" value="data visualisation">Data Visualisation with D3
+                    <input type="radio" name="next-tech" value="data visualisation">  Data Visualisation with D3
                     <br>
-                    <input type="radio" name="next-tech" value="PHP">PHP
+                    <input type="radio" name="next-tech" value="PHP">  PHP
                     <br>
-                    <input type="radio" name="next-tech" value="other">Other
+                    <input type="radio" name="next-tech" value="other">  Other
                     <br>
                 </div>
+                <hr>
                 <div class="individual-entry">
-                    <label>Further comments or suggestions</label>
+                    <label>Further comments or suggestions</label><br>
                     <textarea name="comments" placeholder="Enter text here..." id="comments" rows="5" columns="50"></textarea>
                 </div>
                 <input type="submit" value="Submit">
