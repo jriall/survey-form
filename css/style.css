@@ -128,6 +128,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #6fbd8d;
     color: white;
+    margin-bottom: 40px;
 
 }
 
@@ -137,6 +138,12 @@ h1 {
     padding-top: 30px;
     text-align: center;
     color: white;
+    letter-spacing: 2px;
+}
+
+.survey {
+    background-color: #56A474;
+    padding: 20px 20px 20px 20px;
 }
 
 legend {
@@ -150,7 +157,7 @@ legend {
 
 fieldset {
     padding: 30px 50px 30px 50px;
-    margin: 20px 20px 50px 20px;
+    margin: 20px 20px 20px 20px;
 }
 
 .individual-entry {
@@ -163,6 +170,10 @@ input, select {
 
 label {
     font-size: 120%;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"] {
+    font-size:80%;
 }
 
 textarea {
@@ -178,4 +189,14 @@ textarea {
 
 hr {
     margin: 20px 0 20px 0;
+}
+
+button[type=submit] {
+    font-size: 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
 }
